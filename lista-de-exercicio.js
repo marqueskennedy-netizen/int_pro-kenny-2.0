@@ -39,3 +39,40 @@ for(let i=1; i<=8; i++){
 for(let i= 1; i<=15; i= i+2){
     console.log(i);
 }
+
+///============= Ativiades com IF =================///
+
+//8.Verifique o numero 15 é poitivo e exiba uma mensagem 
+let numero =-15;
+if(numero >0){
+    console.log(`${numero} é positivo`);
+}else{
+    console.log(`${numero} é negativo`)
+}
+
+//9.Veifique e uma pessoa com 17 anos e maior de idade
+let idade =17;
+if(idade >=18){
+    console.log("Maior fe idade")
+}else{
+    console.log("Menor de idade");
+}
+
+//10.Veriique se a nota 7.5 e sufucuente para  aprovaçao (meia 6)
+let nota =7.5;
+if(nota >=6){
+    console.log("aprovao");
+}else{
+    console.log("reprovado");
+}
+
+//11.Verifique e o numero 8 é maior que 10
+let num =8;
+if(num >=10){
+    console.log("Maior")
+}else{
+    console.log("Menor")
+}
+
+//12.verifique se o numero 0 e igual a zero
+let 
